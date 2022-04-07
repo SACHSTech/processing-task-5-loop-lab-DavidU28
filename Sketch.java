@@ -67,13 +67,13 @@ public class Sketch extends PApplet {
    */
   public void draw_section1(){
     
-        for (int intRow = 0; intRow < 300; intRow += 10) {
-          for(int intColumn = 0; intColumn < 300; intColumn += 10){
-            noStroke();
-            fill(255);
-            int intX = 3 + intColumn;
-            int intY = 303 + intRow;
-            rect(intX, intY, 5, 5);
+    for (int intRow = 0; intRow < 300; intRow += 10) {
+      for(int intColumn = 0; intColumn < 300; intColumn += 10){
+        noStroke();
+        fill(255);
+        int intX = 3 + intColumn;
+        int intY = 303 + intRow;
+        rect(intX, intY, 5, 5);
 
       }
     }
